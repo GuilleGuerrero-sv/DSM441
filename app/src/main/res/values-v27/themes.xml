@@ -1,0 +1,5 @@
+<resources>
+    <style name="Theme.AtlasBrisa" parent="Theme.AtlasBrisa.Base">
+        <item name="android:windowLightNavigationBar">true</item>
+    </style>
+</resources>

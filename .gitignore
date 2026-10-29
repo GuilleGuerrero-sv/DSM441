@@ -1,0 +1,27 @@
+.gradle/
+.kotlin/
+.idea/
+# Guías y documentos que se conservan solo en esta computadora.
+/docs/
+**/build/
+local.properties
+secrets.properties
+# También dejamos fuera copias y variantes del archivo privado.
+secrets.properties.*
+!secrets.properties.example
+.env
+.env.*
+!.env.example
+# Los APK configurados contienen las claves aunque el código no las tenga.
+*.apk
+*.aab
+*.apks
+*.xapk
+*.zip
+# Archivos de firma y su configuración local.
+*.jks
+*.keystore
+keystore.properties
+signing.properties
+captures/
+.DS_Store
